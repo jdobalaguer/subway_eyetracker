@@ -1,0 +1,50 @@
+list.
+
+doing
+    fixing file and eyelink tools
+    
+next todo
+    new mod:
+        set optimal proportion
+        spread variance between means
+        ...
+        fix virtual modes
+        fix players
+        ...
+        modify main_file to allow reading more than header/data fields
+        fix analysis
+
+middle todo
+    main_monitor + main_map:
+        move draw_* methods monitor→map (maybe?)
+    eyelink analysis:
+        set screen from file
+        key stations
+    analysis_writer:
+        gui design
+        add/upd expression from body_gui
+
+long todo
+    new mod:
+        b/g mode (of the same map, before using colors)
+    analysis_writer:
+        update body_exp from expression
+        update body_gui from expression
+    analysis:
+        load maps
+
+done
+    new mod:
+        splitting each journey in planning/clicking/moving parts
+        add planning/clicking/moving label
+        speed-up the animation
+        add timebar
+        add explicit quest
+        change eyetracker-check buttons
+        limit clicking time
+        modify main_file to allow writing more than header/data fields
+        save quest
+        save header
+            screen_rect size
+            screen_map size
+

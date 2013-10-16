@@ -1,0 +1,15 @@
+OPTIMALITY OF TIME / TRIAL [human]
+1 : “human.header.trials”
+« « “human.data.traveltime←map,trial,stop” | stop sum » ./ « “seq.optimaltime” » | map mean »
+
+OPTIMALITY OF STOPS / TRIAL [human]
+1 : “human.header.trials”
+« « “human.data.stop←map,trial,stop” | stop sum » ./ « “counter.data.stop←map,trial,stop” | stop sum » | map 3:10 | map mean »
+
+OPTIMALITY OF SPEED / TRIAL [human]
+1 : “human.header.trials”
+« ( “seq.optimaltime” ./ « “god.data.stop←map,trial,stop” | stop max » ) ./ « “human.data.traveltime←map,trial,stop” | stop mean » | map 3:10 | map mean »
+
+NUMBER OF DECISIONS / TRIAL [human]
+1 : “human.header.trials”
+« “human.data.decision←map,trial,stop” | map 3:10 | stop sum | map mean »

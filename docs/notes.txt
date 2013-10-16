@@ -1,0 +1,5 @@
+!!! there is a policy learning.
+!!! if you introduce a dynamic, they may tend to that dynamic.
+
+next mods:
+    b/w mode

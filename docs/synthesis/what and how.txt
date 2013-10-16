@@ -1,0 +1,38 @@
+Economical Decision-Making
+"neurobiological and computational mechanisms of complex planning in navigation"
+
+    MAIN TARGETS
+        uncertainty
+            pdf estimation
+        economics
+            explotation/exploration trade-off
+        conditioning
+            repetition of decisions with less RT (egocentric navigation)
+        perception
+            visual shortest path processing (allocentric navigation)
+            visual exploration
+        memory
+            a priori knowledge for a line (intermap transfer)
+            short-term memory limits
+        motivation
+        logic
+            switching between strategies
+            find strategy elements
+    
+    MODEL ANALYSIS
+        work ALWAYS with subjects history.
+        models can fit people behaviour temporally
+    
+    OBSERVATIONS
+        we can allow random maps/trials
+        
+        with what will we work? (eeg/fmri/eyetracker)
+        
+        models can work without feedback from their decisions. why? because they already follow a kind of logic. that means that they learn the estimation, but cannot learn to decide. logic is how you decide. having the knowledge and understanding when your logic is good or wrong, you can learn to decide, too. you sometimes learn which strategies are the best.
+        so, models can fit people behaviour temporally. check that.
+        
+    ADVANTAGES
+        ecological
+        we can follow serial decisions. as in the n-bandit task
+        
+        
